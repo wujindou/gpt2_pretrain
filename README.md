@@ -1,3 +1,3 @@
 # gpt2_pretrain
 
-Pretrain GPT2 models on using dataset
+Pretrain GPT2 models on custom dataset
