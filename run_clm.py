@@ -48,6 +48,8 @@ from transformers import (
     is_torch_tpu_available,
     set_seed,
 )
+import os 
+os.environ["WANDB_DISABLED"] = "true"
 from transformers.testing_utils import CaptureLogger
 from transformers.trainer_utils import get_last_checkpoint
 from transformers.utils import check_min_version, send_example_telemetry
